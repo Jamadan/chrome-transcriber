@@ -15,29 +15,29 @@ export default () => {
     recognition.maxAlternatives = 1;
 
     recognition.onend = () => {
-      console.log('onend');
+      // console.log('onend');
     };
 
     recognition.onstart = () => {
-        console.log('onstart');
+      // console.log('onstart');
       setRecorder({ isRecording: true });
     };
 
     recognition.onresult = event => {
         const last = event.results.length - 1;
         const result = event.results[last][0];
-        console.log([...transcripts], result);
+        // console.log([...transcripts], result);
         setTranscripts([...transcripts, result.transcript]);
     
         console.log('Confidence: ' + result.confidence, result.transcript);
       };
     
       recognition.onnomatch = event => {
-        console.log("I didn't recognise that...");
+        // console.log("I didn't recognise that...");
       };
     
       recognition.onerror = event => {
-        console.log('Error occurred in recognition: ' + event.error);
+        // console.log('Error occurred in recognition: ' + event.error);
       };
 
       return recognition;
@@ -46,18 +46,16 @@ export default () => {
   let recognition = newRecognition();
 
   const startRecording = () => {
-    console.log('start-clicked');
+    // console.log('start-clicked');
     recognition.start();
   };
 
   const stopRecording = () => {
-    console.log('stop-clicked');
+    // console.log('stop-clicked');
     recognition.stop();
     recognition = newRecognition();
     setRecorder({ isRecording: false });
   };
-
-  console.log('render');
 
   return (
     <div height="200px">

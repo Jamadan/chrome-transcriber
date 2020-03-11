@@ -1,6 +1,6 @@
 {
-    "short_name": "Scribe",
-    "name": "Scribe",
+    "short_name": "JamScribe",
+    "name": "JamScribe",
     "icons": {
       "16": "icon_trans.png",
       "48": "icon_trans.png",
@@ -12,6 +12,6 @@
     "version": "0.0.1",
     "browser_action": {
       "default_popup": "index.html",
-      "default_title": "Scribe"
+      "default_title": "JamScribe"
     }
   }
