@@ -1,23 +1,23 @@
 -----------------------------
 Rollup File Analysis
 -----------------------------
-bundle size:    3.841 KB
-original size:  4.23 KB
-code reduction: 9.2 %
+bundle size:    3.81 KB
+original size:  4.214 KB
+code reduction: 9.59 %
 module count:   10
 
 ██████████████████████████████░░░░░░░░░░░░░░░░░░░░
 file:            /src/components/Recorder.jsx
-bundle space:    60.32 %
-rendered size:   2.317 KB
-original size:   2.255 KB
+bundle space:    60.97 %
+rendered size:   2.323 KB
+original size:   2.264 KB
 code reduction:  0 %
 dependents:      1
   - /src/components/index.js
 
 ███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 file:            /node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/iterableToArrayLimit.js
-bundle space:    15.78 %
+bundle space:    15.91 %
 rendered size:   606 Bytes
 original size:   621 Bytes
 code reduction:  2.42 %
@@ -26,7 +26,7 @@ dependents:      1
 
 ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 file:            /node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/arrayWithoutHoles.js
-bundle space:    4.92 %
+bundle space:    4.96 %
 rendered size:   189 Bytes
 original size:   204 Bytes
 code reduction:  7.35 %
@@ -35,7 +35,7 @@ dependents:      1
 
 ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 file:            /node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/iterableToArray.js
-bundle space:    4.27 %
+bundle space:    4.3 %
 rendered size:   164 Bytes
 original size:   179 Bytes
 code reduction:  8.38 %
@@ -44,7 +44,7 @@ dependents:      1
 
 █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 file:            /node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray.js
-bundle space:    3.15 %
+bundle space:    3.18 %
 rendered size:   121 Bytes
 original size:   288 Bytes
 code reduction:  57.99 %
@@ -53,7 +53,7 @@ dependents:      1
 
 █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 file:            /node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/toConsumableArray.js
-bundle space:    3.1 %
+bundle space:    3.12 %
 rendered size:   119 Bytes
 original size:   286 Bytes
 code reduction:  58.39 %
@@ -62,7 +62,7 @@ dependents:      1
 
 █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 file:            /node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/nonIterableRest.js
-bundle space:    2.86 %
+bundle space:    2.89 %
 rendered size:   110 Bytes
 original size:   125 Bytes
 code reduction:  12 %
@@ -71,7 +71,7 @@ dependents:      1
 
 █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 file:            /node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/nonIterableSpread.js
-bundle space:    2.79 %
+bundle space:    2.81 %
 rendered size:   107 Bytes
 original size:   122 Bytes
 code reduction:  12.3 %
@@ -80,7 +80,7 @@ dependents:      1
 
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 file:            /node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/arrayWithHoles.js
-bundle space:    1.85 %
+bundle space:    1.86 %
 rendered size:   71 Bytes
 original size:   86 Bytes
 code reduction:  17.44 %
@@ -89,9 +89,9 @@ dependents:      1
 
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 file:            /src/components/index.js
-bundle space:    0.96 %
-rendered size:   37 Bytes
-original size:   64 Bytes
-code reduction:  42.19 %
+bundle space:    0 %
+rendered size:   0 Byte
+original size:   39 Bytes
+code reduction:  100 %
 dependents:      0
 
