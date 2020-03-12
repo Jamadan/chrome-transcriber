@@ -1,3 +1,1 @@
-import Recorder from './Recorder';
-
-export default { Recorder };
+export { Recorder } from './Recorder';

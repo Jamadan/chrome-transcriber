@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 // eslint-disable-next-line
 var SpeechRecognition = SpeechRecognition || webkitSpeechRecognition;
 
-export default () => {
+export const Recorder = () => {
   const [recorder, setRecorder] = useState({ isRecording: false });
   const [transcripts, setTranscripts] = useState([]);
 

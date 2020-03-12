@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from "react-bootstrap/Navbar";
 import './App.css';
-import Recorder from './components/Recorder';
+import { Recorder } from './components/Recorder';
 
 const App = () => {
   return (
