@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/components/index.js"],"names":["Recorder"],"mappings":"AAAA,OAAOA,QAAP,MAAqB,YAArB;AAEA,eAAe;AAAEA,EAAAA,QAAQ,EAARA;AAAF,CAAf","sourcesContent":["import Recorder from './Recorder';\n\nexport default { Recorder };"],"file":"index.js"}
